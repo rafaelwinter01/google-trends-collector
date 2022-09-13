@@ -4,8 +4,8 @@ The program will collect all data using the keyword 'bitcoin' between a initial 
 (fixed as '2015-01-01') and the final day that is the day the program will run. 
 
 It was used two 3rd party libraries to finish the task of collecting:
-    - g-trends: resposible for collect the data from Google Trends
-    - objects-to-csv: resposible for write the files with the data collected
+    - g-trends: responsible for collect the data from Google Trends
+    - objects-to-csv: responsible for write the files with the data collected
 
 Google Trends provides the periodicity of the searched data depending on the range of dates
 that is being asked for, for some months, it will be returned in records of days, for more months
@@ -20,7 +20,7 @@ I took two to three hours to finish the tasks. Searching for better solutions, s
 libraries, developing and testing.
 
 ## 3 - Different ways tried to solve the problem
-At first, I thought that would be necessary some webscrapping solution. But, searching a little
+At first, I thought that would be necessary some web-scrapping solution. But, searching a little
 more, it was easy to find a library that could help with the development.
 
 ## 4 - Reasons of using the current approach
@@ -28,7 +28,7 @@ The library 'G-Trends' showed to be a good solution for the task, since is easy 
 enough tools for what is proposed.
 
 ## 5 - Execution
-After dowload the source code, is necessary to install 'Node.js' in the computer, if is not already
+After download the source code, is necessary to install 'Node.js' in the computer, if is not already
 installed. Opening a command prompt at the folder of the project, executes the command:
 ```
 npm install
