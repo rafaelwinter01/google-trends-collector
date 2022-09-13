@@ -4,8 +4,8 @@ The program will collect all data using the keyword 'bitcoin' between a initial 
 (fixed as '2015-01-01') and the final day that is the day the program will run. 
 
 It was used two 3rd party libraries to finish the task of collecting:
-    - g-trends: responsible for collect the data from Google Trends
-    - objects-to-csv: responsible for write the files with the data collected
+    # g-trends: responsible for collect the data from Google Trends
+    # objects-to-csv: responsible for write the files with the data collected
 
 Google Trends provides the periodicity of the searched data depending on the range of dates
 that is being asked for, for some months, it will be returned in records of days, for more months
